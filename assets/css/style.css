@@ -289,3 +289,101 @@ body{
     margin-left: 10px;
     font-weight: normal;
 }
+
+#aba-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background-color: blueviolet;
+    background-image: url('../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titulo-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    font-family: 'barber';
+    color: white;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+#planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 1200px;
+    height: 550px;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+.item-plano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 385px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 7px;
+}
+
+.nome-plano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.valor-plano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: #F50109;
+    font-size: 90px;
+    margin: 0px;
+}
+
+.plano-mensal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barber';
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.lista-beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'barber';
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.item-beneficio{
+
+}
