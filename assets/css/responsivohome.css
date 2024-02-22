@@ -2,24 +2,18 @@
     #cabecalho{
         background-color: red;
     }
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: blue;
-    
-        background-image: url('../image/como-escolher-barbearia-800x300.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: -500px;
-        background-size: cover;
-    }
     #pag-principal{
         display: flex;justify-content: center;
         align-items: center;
         width: 100%;
         height: 650px;
+        background-color: blueviolet;
+    
+        background-image: url('../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -350px;
+        background-size: cover;
     }
 }    
 
@@ -27,41 +21,24 @@
     #cabecalho{
         background-color: blue;
     }
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: blue;
-        background-image: url('../image/como-escolher-barbearia-800x300.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: -650px;
-        background-size: cover;
-    }
     #pag-principal{
         display: flex;justify-content: center;
         align-items: center;
         width: 100%;
         height: 650px;
+        background-color: blueviolet;
+    
+        background-image: url('../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -450px;
+        background-size: cover;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
     #cabecalho{
         background-color: green;
-    }
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: blue;
-        background-image: url('../image/como-escolher-barbearia-800x300.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: -800px;
-        background-size: cover;
     }
     #aba-nome-barbearia{
         margin: 0px;
@@ -71,24 +48,19 @@
         align-items: center;
         width: 100%;
         height: 650px;
+        background-color: blueviolet;
+    
+        background-image: url('../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -700px;
+        background-size: cover;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
     #cabecalho{
         background-color: yellow;
-    }
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: blue;
-        background-image: url('../image/como-escolher-barbearia-800x300.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: -1050px;
-        background-size: cover;
     }
     #aba-nome-barbearia{
         margin: 0px;
@@ -127,6 +99,7 @@
         height: 150px;
         background-color: rgba(0, 0, 255, 0);
     }
+    
     #botao-registro{
         width: 325px;
         height: 50px;
@@ -138,7 +111,8 @@
         box-shadow: 0px 0px 10px #9D0005;
         font-size: 27px;
         font-weight: normal;
-    } 
+    }
+    
     #botao-login{
         width: 325px;
         height: 50px;
@@ -156,24 +130,19 @@
         align-items: center;
         width: 100%;
         height: 650px;
+        background-color: blueviolet;
+    
+        background-image: url('../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -950px;
+        background-size: cover;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px){
     #cabecalho{
         background-color: blueviolet;
-    }
-    #menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: blue;
-        background-image: url('../image/como-escolher-barbearia-800x300.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: -1225px;
-        background-size: cover;
     }
     #aba-nome-barbearia{
         margin: 0px;
@@ -212,6 +181,7 @@
         height: 150px;
         background-color: rgba(0, 0, 255, 0);
     }
+    
     #botao-registro{
         width: 200px;
         height: 50px;
@@ -224,6 +194,7 @@
         font-size: 20px;
         font-weight: normal;
     }
+    
     #botao-login{
         width: 200px;
         height: 50px;
@@ -241,5 +212,12 @@
         align-items: center;
         width: 100%;
         height: 650px;
+        background-color: blueviolet;
+    
+        background-image: url('../image/como-escolher-barbearia-800x300.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: -1125px;
+        background-size: cover;
     }
 }

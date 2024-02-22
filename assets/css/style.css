@@ -67,12 +67,6 @@ body{
     justify-content: center;
     width: 100%;
     background-color: blue;
-
-    background-image: url('../image/como-escolher-barbearia-800x300.png');
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 #pag-principal{
@@ -80,16 +74,15 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 650px;
-    /*
+    height: 700px;
     background-color: blueviolet;
-    */
-    /*
+
     background-image: url('../image/como-escolher-barbearia-800x300.png');
-    */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    flex-direction: column;
 }
 
 #aba-nome-barbearia{
@@ -98,7 +91,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 625px;
-    height: 470px;
+    height: 650px;
     /*
     background-color: rgba(128, 128, 128, 0.247);
     */
@@ -170,11 +163,9 @@ body{
 }
 
 #divisao-pag-principal{
-    /*
-    background-color: blue;
-    */
     width: 100%;
     height: 50px;
+    background-color: rgba(0, 0, 255, 0);
 }
 
 #aba-endereco{
