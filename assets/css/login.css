@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'barber';
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(12, 12, 12);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(12, 12, 12);
+    background-image: url("../image/vista-de-angulo-alto-de-ferramentas-de-barbeiro-na-mesa_1048944-29176035.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#formulario-de-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 15px;
+    border: 0px;
+    margin-top: -100px;
+}
+
+#formularios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgba(255, 217, 0, 0);
+    width: 400px;
+    height: 400px;
+}
+
+.aba-form{
+    width: 290px;
+    height: 50px;
+    font-size: 19px;
+    font-family: 'barber';
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    background-color: rgb(29, 29, 29);
+}
+
+.botoes{
+    font-size: 17px;
+    font-family: 'barber';
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#link-voltar{
+
+}
