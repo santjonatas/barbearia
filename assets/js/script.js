@@ -3,6 +3,7 @@ function entrarMouseBotaoSobreNos(){
 }
 function clicarMouseBotaoSobreNos(){
     sobre_nos.style.color = '#770105'
+    divsobrenos.scrollIntoView({ behavior: "smooth" })
 }
 function desclicarMouseBotaoSobreNos(){
     sobre_nos.style.color = '#9D0005'
@@ -16,6 +17,7 @@ function entrarMouseBotaoAssinatura(){
 }
 function clicarMouseBotaoAssinatura(){
     assinatura.style.color = '#770105'
+    divplanos.scrollIntoView({ behavior: "smooth" })
 }
 function desclicarMouseBotaoAssinatura(){
     assinatura.style.color = '#9D0005'
@@ -23,10 +25,6 @@ function desclicarMouseBotaoAssinatura(){
 function sairMouseBotaoAssinatura(){
     assinatura.style.color = 'white'
 }
-
-
-
-
 
 function entrarMouseBotaoInsta(){
     insta.style.borderRadius = '50%'
@@ -74,7 +72,9 @@ function sairMouseBotaoLogin(){
 }
 
 let sobre_nos = document.getElementById("sobre-nos")
+let divsobrenos = document.getElementById("divisao-sobrenos")
 let assinatura = document.getElementById("assinatura")
+let divplanos = document.getElementById("divisao-planos")
 let insta =  document.getElementById("insta")
 let botao_registro = document.getElementById("botao-registro")
 let botao_login = document.getElementById("botao-login")
