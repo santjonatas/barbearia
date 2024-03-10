@@ -95,6 +95,7 @@
     .botoes{
         font-size: 20px;
         font-family: 'barber';
+        text-align: center;
         color: white;
         width: 100px;
         height: 50px;
@@ -159,6 +160,7 @@
     .botoes{
         font-size: 20px;
         font-family: 'barber';
+        text-align: center;
         color: white;
         width: 100px;
         height: 50px;
