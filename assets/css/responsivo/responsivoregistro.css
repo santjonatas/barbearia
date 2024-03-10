@@ -1,0 +1,139 @@
+@media (min-width: 1201px) and (max-width: 1265px){
+    #formulario-de-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 670px;
+        height: 475px;
+        background-color: rgba(255, 255, 255, 0.233);
+        border-radius: 15px;
+        border: 0px;
+    }
+}    
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    #formulario-de-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 670px;
+        height: 475px;
+        background-color: rgba(255, 255, 255, 0.233);
+        border-radius: 15px;
+        border: 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #formulario-de-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 670px;
+        height: 475px;
+        background-color: rgba(255, 255, 255, 0.233);
+        border-radius: 15px;
+        border: 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #formulario-de-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 425px;
+        height: 590px;
+        background-color: rgba(255, 255, 255, 0.233);
+        border-radius: 15px;
+        border: 0px;
+    }
+    #formularios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: rgba(255, 217, 0, 0);
+        width: 400px;
+        height: 500px;
+        }
+    #selecionar-data-nasc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: rgba(255, 217, 0, 0);
+        width: 550px;
+    }
+    #selecionar-data-nasc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 450px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    #formulario-de-registro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 590px;
+        background-color: rgba(255, 255, 255, 0.233);
+        border-radius: 15px;
+        border: 0px;
+    }
+    #formularios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: rgba(255, 217, 0, 0);
+        width: 300px;
+        height: 500px;
+        }
+    #selecionar-data-nasc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        background-color: rgba(255, 217, 0, 0);
+        width: 550px;
+    }
+    #selecionar-data-nasc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 450px;
+    }
+    .aba-form{
+        width: 275px;
+        height: 50px;
+        font-size: 19px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 15px;
+        border: 0px;
+        background-color: rgb(29, 29, 29);
+    }
+}

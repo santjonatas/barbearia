@@ -136,6 +136,15 @@ body{
     background-color: rgba(0, 0, 255, 0);
 }
 
+#link-botao-registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+}
+
 #botao-registro{
     width: 400px;
     height: 50px;
