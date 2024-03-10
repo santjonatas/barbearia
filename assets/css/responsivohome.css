@@ -40,7 +40,7 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 1675px;
+        height: 650px;
         background-color: rgb(12, 12, 12);
     }
     #div-enderecos{
@@ -53,9 +53,38 @@
         gap: 10px;
         */
         margin: auto;
-        width: 350px;
+        width: 1020px;
         height: 1550px;
         background-color: rgba(0, 0, 255, 0);
+    }
+    .unidade{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(137, 43, 226, 0);
+        width: 325px;
+        height: 510px;
+    }
+    #planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 1020px;
+        height: 550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+    .item-plano{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
     }
 }
 
@@ -101,6 +130,75 @@
         width: 350px;
         height: 1550px;
         background-color: rgba(0, 0, 255, 0);
+    }
+    #aba-planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: blueviolet;
+        background-image: url('../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -500px;
+    }
+    #planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 330px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+    .item-plano{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+    #aba-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+    }
+    #titulo-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+    #texto-sobre-nos{
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 700px;
+        height: 400px;
+        font-family: 'barber';
+        color: white;
+        font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -206,6 +304,75 @@
         width: 350px;
         height: 1550px;
         background-color: rgba(0, 0, 255, 0);
+    }
+    #aba-planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: blueviolet;
+        background-image: url('../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -700px;
+    }
+    #planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 330px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+    .item-plano{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 325px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+    #aba-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(12, 12, 12);
+    }
+    #titulo-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+    #texto-sobre-nos{
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 450px;
+        height: 400px;
+        font-family: 'barber';
+        color: white;
+        font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -367,5 +534,89 @@
         width: 300px;
         margin-left: 10px;
         font-weight: normal;
+    }
+    #aba-planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1650px;
+        background-color: blueviolet;
+        background-image: url('../image/2393a-230b0e_46ea0c1020274b25aeb094ddcc1f132fmv2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -650px;
+    }
+    #planos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 1550px;
+        background-color: rgba(137, 43, 226, 0);
+    }
+    .item-plano{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        width: 300px;
+        height: 500px;
+        background-color: rgba(20, 20, 20, 0.418);
+        border-radius: 7px;
+    }
+    #aba-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 750px;
+        background-color: rgb(12, 12, 12);
+    }
+    #titulo-sobre-nos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'barber';
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+    }
+    #texto-sobre-nos{
+        display: flex;
+        justify-content: center;
+        /*
+        background-color: #0031F4;
+        */
+        width: 300px;
+        height: 550px;
+        font-family: 'barber';
+        color: white;
+        font-size: 23px;
+        text-align: center;
+    }
+    #logo-rodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+    }
+    #nome-barbershop-rodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        color: white;
+        font-size: 50px;
+        font-family: 'barber';
     }
 }
