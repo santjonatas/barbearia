@@ -5,7 +5,7 @@
 
 body{
     margin: 0px;
-    background-color: blueviolet;
+    background-color: rgb(12, 12, 12);
 }
 
 main{
@@ -14,7 +14,7 @@ main{
     align-items: center;
     width: 100%;
     height: 800px;
-    background-color: blue;
+    background-color: rgb(12, 12, 12);
     background-image: url("../image/vista-de-angulo-alto-de-ferramentas-de-barbeiro-na-mesa_1048944-29176035.avif");
     background-repeat: no-repeat;
     background-position: center;
